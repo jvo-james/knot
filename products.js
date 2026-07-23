@@ -9,7 +9,7 @@ const PRODUCTS = [
     "price": "$7.91",
     "tax": "Includes HST",
     "badge": "Seasonal",
-    "image": "https://images.unsplash.com/photo-1542826438-0b1d5f0e4d8f?auto=format&fit=crop&w=1400&q=80",
+    "image": "images/p1.jpg",
     "short": "Flaky apple pastry with a bright finish and a soft, fruit-forward center.",
     "tags": [
       "Minimum 2",
@@ -26,7 +26,7 @@ const PRODUCTS = [
     "price": "$7.00",
     "tax": "No HST",
     "badge": "Value pack",
-    "image": "https://images.unsplash.com/photo-1542826438-0b1d5f0e4d8f?auto=format&fit=crop&w=1400&q=80",
+    "image": "images/p2.jpg",
     "short": "A sharing box of six for brunch tables, gifting, or stocking the freezer.",
     "tags": [
       "Pack of 6",
@@ -43,7 +43,7 @@ const PRODUCTS = [
     "price": "$14.00",
     "tax": "No HST",
     "badge": "Herb loaf",
-    "image": "https://images.unsplash.com/photo-1549931319-a545dcf3bc7c?auto=format&fit=crop&w=1400&q=80",
+    "image": "images/p3.jpg",
     "short": "A fragrant loaf with rosemary folded into a crisp crust and open crumb.",
     "tags": [
       "Organic",
@@ -59,7 +59,7 @@ const PRODUCTS = [
     "price": "$14.00",
     "tax": "No HST",
     "badge": "Savory",
-    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1400&q=80",
+    "image": "images/p4.jpg",
     "short": "Briny olives folded through a rustic sourdough with a clean, balanced finish.",
     "tags": [
       "Organic",
@@ -75,7 +75,7 @@ const PRODUCTS = [
     "price": "$7.91",
     "tax": "Includes HST",
     "badge": "Soft batch",
-    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=1400&q=80",
+    "image": "images/p5.jpg",
     "short": "A tender knot with vanilla warmth and a glossy bakery shine.",
     "tags": [
       "Minimum 2",
@@ -91,7 +91,7 @@ const PRODUCTS = [
     "price": "$7.00",
     "tax": "No HST",
     "badge": "Value pack",
-    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=1400&q=80",
+    "image": "images/p6.jpg",
     "short": "A six-pack made for sharing, brunch tables, and easy weekend grazing.",
     "tags": [
       "Pack of 6",
@@ -107,7 +107,7 @@ const PRODUCTS = [
     "price": "$8.48",
     "tax": "Includes HST",
     "badge": "Cocoa",
-    "image": "https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&w=1400&q=80",
+    "image": "images/p7.jpg",
     "short": "Layered cocoa pastry with a clean, elegant profile and a glossy finish.",
     "tags": [
       "Minimum 2",
@@ -123,7 +123,7 @@ const PRODUCTS = [
     "price": "$7.50",
     "tax": "No HST",
     "badge": "Value pack",
-    "image": "https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&w=1400&q=80",
+    "image": "images/p8.jpg",
     "short": "A six-pack box for serious chocolate days and generous sharing.",
     "tags": [
       "Pack of 6",
@@ -139,7 +139,7 @@ const PRODUCTS = [
     "price": "$12.00",
     "tax": "No HST",
     "badge": "Classic loaf",
-    "image": "https://images.unsplash.com/photo-1549931319-a545dcf3bc7c?auto=format&fit=crop&w=1400&q=80",
+    "image": "images/p9.jpg",
     "short": "Deep crust, open crumb, naturally fermented for a clean, classic slice.",
     "tags": [
       "Organic",
@@ -155,7 +155,7 @@ const PRODUCTS = [
     "price": "$12.00",
     "tax": "No HST",
     "badge": "Soft crumb",
-    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1400&q=80",
+    "image": "images/p10.png",
     "short": "A lighter loaf with a refined crumb and a calm, versatile flavor.",
     "tags": [
       "Organic",
@@ -171,7 +171,7 @@ const PRODUCTS = [
     "price": "$12.00",
     "tax": "No HST",
     "badge": "Whole grain",
-    "image": "https://images.unsplash.com/photo-1525755662778-989d0524087e?auto=format&fit=crop&w=1400&q=80",
+    "image": "images/p11.jpg",
     "short": "Nutty, earthy, and wholesome with a deeply satisfying crust.",
     "tags": [
       "Organic",
@@ -187,7 +187,7 @@ const PRODUCTS = [
     "price": "$14.00",
     "tax": "No HST",
     "badge": "Savory",
-    "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=1400&q=80",
+    "image": "images/p12.jpg",
     "short": "Sharp cheddar folded through a golden sourdough with a rich savory edge.",
     "tags": [
       "Organic",
@@ -203,7 +203,7 @@ const PRODUCTS = [
     "price": "$15.00",
     "tax": "No HST",
     "badge": "Herb loaf",
-    "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=1400&q=80",
+    "image": "images/p13.jpg",
     "short": "Fresh basil pesto, sun-dried tomato, and organic Red Fife flour for a bright loaf.",
     "tags": [
       "Organic",
@@ -220,7 +220,7 @@ const PRODUCTS = [
     "price": "$11.00",
     "tax": "No HST",
     "badge": "Bake at home",
-    "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=1400&q=80",
+    "image": "images/p14.jpg",
     "short": "Ready-to-bake dough for a crisp base and a chewy, airy finish.",
     "tags": [
       "Organic",
@@ -236,7 +236,7 @@ const PRODUCTS = [
     "price": "$5.65",
     "tax": "Includes HST",
     "badge": "Warm spice",
-    "image": "https://images.unsplash.com/photo-1542826438-0b1d5f0e4d8f?auto=format&fit=crop&w=1400&q=80",
+    "image": "images/p15.jpg",
     "short": "Soft swirls with warm cinnamon notes and a buttery bakery finish.",
     "tags": [
       "Minimum 2",
@@ -252,7 +252,7 @@ const PRODUCTS = [
     "price": "$5.00",
     "tax": "No HST",
     "badge": "Value pack",
-    "image": "https://images.unsplash.com/photo-1542826438-0b1d5f0e4d8f?auto=format&fit=crop&w=1400&q=80",
+    "image": "images/p16.jpg",
     "short": "A six-pack for breakfast trays, office sharing, and weekend plans.",
     "tags": [
       "Pack of 6",
@@ -268,7 +268,7 @@ const PRODUCTS = [
     "price": "$27.00",
     "tax": "No HST",
     "badge": "Box of 6",
-    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=1400&q=80",
+    "image": "images/p17.jpg",
     "short": "A small batch box with rich cocoa depth and a fuller, more substantial bite.",
     "tags": [
       "Pack of 6",
@@ -284,7 +284,7 @@ const PRODUCTS = [
     "price": "$5.00",
     "tax": "No HST",
     "badge": "Butter layers",
-    "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=1400&q=80",
+    "image": "images/p18.webp",
     "short": "Classic laminated layers with a crisp shell and a soft, buttery center.",
     "tags": [
       "Minimum 2",
@@ -300,7 +300,7 @@ const PRODUCTS = [
     "price": "$6.22",
     "tax": "Includes HST",
     "badge": "Chocolate",
-    "image": "https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&w=1400&q=80",
+    "image": "images/p19.jpg",
     "short": "Dark cocoa filling wrapped in a flaky shell with a polished finish.",
     "tags": [
       "Minimum 2",
@@ -316,7 +316,7 @@ const PRODUCTS = [
     "price": "$5.50",
     "tax": "No HST",
     "badge": "Value pack",
-    "image": "https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&w=1400&q=80",
+    "image": "images/p20.jpg",
     "short": "A six-pack built for the chocolate lovers and the weekend planners.",
     "tags": [
       "Pack of 6",
@@ -332,7 +332,7 @@ const PRODUCTS = [
     "price": "$8.00",
     "tax": "No HST",
     "badge": "Savory",
-    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1400&q=80",
+    "image": "images/p21.jpg",
     "short": "A savory croissant with a clean, comforting balance of salt and butter.",
     "tags": [
       "Savory",
@@ -348,7 +348,7 @@ const PRODUCTS = [
     "price": "$9.00",
     "tax": "No HST",
     "badge": "Herb twist",
-    "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=1400&q=80",
+    "image": "images/p22.jpg",
     "short": "Pesto, olive, and sun-dried tomato in a layered croissant danish format.",
     "tags": [
       "Savory",
@@ -364,7 +364,7 @@ const PRODUCTS = [
     "price": "$9.04",
     "tax": "Includes HST",
     "badge": "Berry",
-    "image": "https://images.unsplash.com/photo-1542826438-0b1d5f0e4d8f?auto=format&fit=crop&w=1400&q=80",
+    "image": "images/p23.jpg",
     "short": "Juicy wildberry brightness with a glossy finish and tender layers.",
     "tags": [
       "Minimum 2",
@@ -380,7 +380,7 @@ const PRODUCTS = [
     "price": "$8.00",
     "tax": "No HST",
     "badge": "Value pack",
-    "image": "https://images.unsplash.com/photo-1542826438-0b1d5f0e4d8f?auto=format&fit=crop&w=1400&q=80",
+    "image": "images/p24.jpg",
     "short": "A six-pack box for brunch plates, gifting, or a beautiful freezer stash.",
     "tags": [
       "Pack of 6",
@@ -396,7 +396,7 @@ const PRODUCTS = [
     "price": "$9.04",
     "tax": "Includes HST",
     "badge": "Almond",
-    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=1400&q=80",
+    "image": "images/p25.jpg",
     "short": "Twice-baked layers with toasted almond richness and a crisp, flaky finish.",
     "tags": [
       "Minimum 2",
@@ -412,7 +412,7 @@ const PRODUCTS = [
     "price": "$8.00",
     "tax": "No HST",
     "badge": "Value pack",
-    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=1400&q=80",
+    "image": "images/p26.jpg",
     "short": "A six-pack for the people who never want to share their almond croissants.",
     "tags": [
       "Pack of 6",
@@ -428,7 +428,7 @@ const PRODUCTS = [
     "price": "$9.61",
     "tax": "Includes HST",
     "badge": "Chocolate almond",
-    "image": "https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&w=1400&q=80",
+    "image": "images/p27.jpg",
     "short": "A deeper, more decadent almond croissant with a chocolate finish.",
     "tags": [
       "Minimum 2",
@@ -444,7 +444,7 @@ const PRODUCTS = [
     "price": "$8.50",
     "tax": "No HST",
     "badge": "Value pack",
-    "image": "https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&w=1400&q=80",
+    "image": "images/p28.jpg",
     "short": "A six-pack that turns the pastry case into a small celebration.",
     "tags": [
       "Pack of 6",
