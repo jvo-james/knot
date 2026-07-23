@@ -3,8 +3,8 @@ const EDITORIAL_EDITS = [
     key: 'bread',
     eyebrow: 'Bread room',
     title: 'Bread Edit',
-    copy: 'A quiet premium line-up built around crust, crumb, and long fermentation. This edit is all about the anchor loaves that define the bakery.',
-    image: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1400&q=80',
+    copy: 'A quiet premium line-up built around crust, crumb, and long fermentation.',
+    image: 'images/b1.jpg',
     pills: ['Country Sourdough', 'Whole Wheat', 'Olive Loaf'],
     link: 'products.html',
     product: 'country-sourdough'
@@ -13,8 +13,8 @@ const EDITORIAL_EDITS = [
     key: 'viennoiserie',
     eyebrow: 'Butter layers',
     title: 'Viennoiserie Edit',
-    copy: 'Laminated pastries with a sharper editorial look. Crisp edges, a soft interior, and the kind of finish that feels expensive without trying too hard.',
-    image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1400&q=80',
+    copy: 'Laminated pastries with a sharper editorial look.',
+    image: 'images/b2.jpg',
     pills: ['Croissants', 'Danishes', 'Almond'],
     link: 'products.html',
     product: 'almond-croissant'
@@ -23,8 +23,8 @@ const EDITORIAL_EDITS = [
     key: 'seasonal',
     eyebrow: 'Small batch',
     title: 'Seasonal Counter',
-    copy: 'Limited-time specials and bakery-window favorites. These are the pieces that move fast and keep the menu feeling alive.',
-    image: 'https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1400&q=80',
+    copy: 'Limited-time specials and bakery-window favorites.',
+    image: 'images/b3.webp',
     pills: ['Apple Chausson', 'Rosemary Sourdough', 'Weekly Drop'],
     link: 'products.html',
     product: 'apple-chausson'
@@ -33,8 +33,8 @@ const EDITORIAL_EDITS = [
     key: 'gift',
     eyebrow: 'For sharing',
     title: 'Gift Box Edit',
-    copy: 'A neat set of pastries for brunch tables, office treats, or taking home in a way that still feels considered and beautiful.',
-    image: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=1400&q=80',
+    copy: 'A neat set of pastries that still feels considered and beautiful.',
+    image: 'images/b4.webp',
     pills: ['Brunch box', 'Weekend gift', 'Crowd-pleaser'],
     link: 'products.html',
     product: 'chocolate-croissant'
@@ -48,7 +48,7 @@ const FEATURED_PRODUCTS = [
     category: 'Bread',
     price: '$12.00',
     short: 'Soft interior, elegant crust, balanced flavor.',
-    image: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=80'
+    image: 'images/c1.jpg'
   },
   {
     slug: 'almond-croissant',
@@ -56,7 +56,7 @@ const FEATURED_PRODUCTS = [
     category: 'Viennoiserie',
     price: '$8.00',
     short: 'Rich almond cream, toasted edges, and a polished finish.',
-    image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1200&q=80'
+    image: 'images/c2.jpg'
   },
   {
     slug: 'apple-chausson',
@@ -64,7 +64,7 @@ const FEATURED_PRODUCTS = [
     category: 'Seasonal',
     price: '$7.00',
     short: 'A crisp, seasonal apple turnover with a glazed finish.',
-    image: 'https://images.unsplash.com/photo-1481391319762-9b7a1c4f9d2f?auto=format&fit=crop&w=1200&q=80'
+    image: 'images/c3.webp'
   },
   {
     slug: 'country-sourdough',
@@ -72,7 +72,7 @@ const FEATURED_PRODUCTS = [
     category: 'Bread',
     price: '$11.00',
     short: 'Deep crust, open crumb, and a clean, classic finish.',
-    image: 'https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=1200&q=80'
+    image: 'images/c4.webp'
   },
   {
     slug: 'chocolate-croissant',
@@ -80,7 +80,7 @@ const FEATURED_PRODUCTS = [
     category: 'Viennoiserie',
     price: '$5.50',
     short: 'Deep cocoa center and a crisp, glossy shell.',
-    image: 'https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=1200&q=80'
+    image: 'images/c5.jpg'
   },
   {
     slug: 'rosemary-sourdough',
@@ -88,7 +88,7 @@ const FEATURED_PRODUCTS = [
     category: 'Seasonal',
     price: '$14.00',
     short: 'Herb-scented loaf with a crisp crust.',
-    image: 'https://images.unsplash.com/photo-1549931319-a545dcf3bc7c?auto=format&fit=crop&w=1200&q=80'
+    image: 'images/c6.jpg'
   },
   {
     slug: 'olive-sourdough',
@@ -96,7 +96,7 @@ const FEATURED_PRODUCTS = [
     category: 'Seasonal',
     price: '$14.00',
     short: 'Briny olives folded through a rustic loaf.',
-    image: 'https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1200&q=80'
+    image: 'images/c7.webp'
   },
   {
     slug: 'brioche-loaf',
@@ -104,7 +104,7 @@ const FEATURED_PRODUCTS = [
     category: 'Bread',
     price: '$10.00',
     short: 'Soft, golden, and rich enough to feel like dessert.',
-    image: 'https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?auto=format&fit=crop&w=1200&q=80'
+    image: 'c8.jpg'
   }
 ];
 
@@ -149,19 +149,19 @@ const REVIEWS = [
 const RECENT_IMAGES = [
   {
     title: 'Morning loaf',
-    image: 'https://images.unsplash.com/photo-1494232410401-ad00d5433cfa?auto=format&fit=crop&w=1400&q=80'
+    image: 'images/d1.jpg'
   },
   {
     title: 'Butter layers',
-    image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1400&q=80'
+    image: 'images/d2.jpg'
   },
   {
     title: 'Gold crumb',
-    image: 'https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=1400&q=80'
+    image: 'images/d3.wepb'
   },
   {
     title: 'Tray service',
-    image: 'https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=1400&q=80'
+    image: 'images/d4.jpg'
   }
 ];
 
