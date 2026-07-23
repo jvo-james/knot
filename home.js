@@ -157,7 +157,7 @@ const RECENT_IMAGES = [
   },
   {
     title: 'Gold crumb',
-    image: 'images/d3.wepb'
+    image: 'images/d3.webp'
   },
   {
     title: 'Tray service',
