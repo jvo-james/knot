@@ -1075,3 +1075,107 @@ th{text-transform:uppercase;letter-spacing:.12em;font-size:11px;color:var(--mute
   .story-gallery{grid-template-columns:1fr}
   .story-gallery .story-image.tall{min-height:260px}
 }
+
+/* ================================
+   Shared mobile + UI refinements
+   Paste at the end of styles.css
+================================== */
+
+/* Make product card images always fill the card cleanly */
+.product-card__image {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  background: #eee;
+}
+
+.product-card__image img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+/* Stylish close buttons used in menu, cart, modal */
+.icon-button {
+  width: 46px;
+  height: 46px;
+  border-radius: 999px;
+  border: 1px solid rgba(35, 29, 24, 0.10);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(245, 236, 226, 0.92));
+  color: var(--ink);
+  box-shadow: 0 10px 24px rgba(35, 25, 18, 0.12);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.icon-button:hover {
+  transform: translateY(-1px) scale(1.03);
+  box-shadow: 0 14px 28px rgba(35, 25, 18, 0.16);
+}
+
+.icon-button:active {
+  transform: scale(0.97);
+}
+
+.icon-button:focus-visible {
+  outline: 3px solid rgba(201, 149, 82, 0.25);
+  outline-offset: 2px;
+}
+
+/* Make customer note arrows look more polished */
+.carousel-arrow {
+  width: 46px;
+  height: 46px;
+  border-radius: 999px;
+  border: 1px solid rgba(35, 29, 24, 0.08);
+  background: linear-gradient(180deg, #ffffff, #f3ebdf);
+  color: var(--ink);
+  box-shadow: 0 10px 24px rgba(35, 25, 18, 0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.carousel-arrow:hover {
+  transform: translateY(-50%) scale(1.05);
+  box-shadow: 0 14px 28px rgba(35, 25, 18, 0.16);
+}
+
+.carousel-arrow:active {
+  transform: translateY(-50%) scale(0.96);
+}
+
+.carousel-arrow:focus-visible {
+  outline: 3px solid rgba(201, 149, 82, 0.25);
+  outline-offset: 2px;
+}
+
+/* Mobile header cleanup: hide the word Menu and enlarge the hamburger */
+@media (max-width: 768px) {
+  .menu-toggle {
+    gap: 0;
+    padding: 10px 12px;
+    min-width: 46px;
+    justify-content: center;
+  }
+
+  .menu-toggle span {
+    display: none;
+  }
+
+  .menu-toggle i {
+    font-size: 24px;
+  }
+
+  .product-card__image {
+    aspect-ratio: 1 / 1;
+  }
+}
