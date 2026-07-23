@@ -104,7 +104,7 @@ const FEATURED_PRODUCTS = [
     category: 'Bread',
     price: '$10.00',
     short: 'Soft, golden, and rich enough to feel like dessert.',
-    image: 'c8.jpg'
+    image: 'images/c8.jpg'
   }
 ];
 
