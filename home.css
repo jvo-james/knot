@@ -2114,3 +2114,97 @@ body.is-layer-open{
     font-size:34px;
   }
 }
+
+/* =========================================
+   Homepage mobile layout refinements
+   Paste at the end of home.css
+========================================= */
+
+/* Reduce Atelier edits card size on mobile */
+@media (max-width: 768px) {
+  .edit-grid {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 8px;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .edit-card {
+    flex: 0 0 min(74vw, 300px);
+    min-height: 250px;
+    scroll-snap-align: start;
+  }
+
+  .edit-card__content {
+    min-height: 250px;
+    padding: 18px;
+  }
+
+  .edit-card__content h3 {
+    font-size: 22px;
+  }
+
+  .edit-card__content p {
+    font-size: 13px;
+  }
+}
+
+/* Remove horizontal scrolling from Recent images and make it a grid */
+@media (max-width: 768px) {
+  .recent-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    overflow: visible;
+    scroll-snap-type: none;
+    padding-bottom: 0;
+  }
+
+  .image-card {
+    width: 100%;
+    min-width: 0;
+    min-height: 190px;
+  }
+}
+
+@media (max-width: 480px) {
+  .recent-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .image-card {
+    min-height: 210px;
+  }
+}
+
+/* Remove horizontal scrolling from Footer and make it a grid */
+@media (max-width: 768px) {
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    overflow: visible;
+    padding-bottom: 0;
+  }
+
+  .footer-grid > div {
+    min-width: 0;
+    padding: 14px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+}
