@@ -2208,3 +2208,74 @@ body.is-layer-open{
     grid-template-columns: 1fr;
   }
 }
+
+/* =========================================================
+   FORCE product images to fill their container on mobile
+   Paste at the end of your stylesheet
+========================================================= */
+
+@media (max-width: 768px) {
+  /* Make the card behave nicely if the image sits above text */
+  .product-card,
+  .product-item,
+  .shop-card,
+  .featured-product-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Common image wrapper names */
+  .product-card__image,
+  .product-image,
+  .product-media,
+  .product-thumb,
+  .card-image,
+  .shop-card__image,
+  .featured-product-card__image,
+  .product-card > a:first-child,
+  .product-item > a:first-child {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    position: relative;
+    background: #f4efe8;
+    line-height: 0;
+    flex: 0 0 auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* The actual image must fill the wrapper completely */
+  .product-card__image img,
+  .product-image img,
+  .product-media img,
+  .product-thumb img,
+  .card-image img,
+  .shop-card__image img,
+  .featured-product-card__image img,
+  .product-card img,
+  .product-item img,
+  .shop-card img,
+  .featured-product-card img {
+    width: 100% !important;
+    height: 100% !important;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: none !important;
+    max-height: none !important;
+    object-fit: cover !important;
+    object-position: center center;
+    display: block;
+  }
+
+  /* Remove any accidental spacing around the media area */
+  .product-card__image *,
+  .product-image *,
+  .product-media *,
+  .product-thumb *,
+  .card-image *,
+  .shop-card__image *,
+  .featured-product-card__image * {
+    margin: 0;
+  }
+}
