@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Knot Guilty French Bakery | Gallery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="gallery-page">
+  <header class="header home-header">
+    <div class="container">
+      <div class="header-start">
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">
+          <i class="fa-solid fa-bars" aria-hidden="true"></i>
+          <span>Menu</span>
+        </button>
+        <nav class="nav nav--desktop" aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="products.html">Shop</a>
+          <a href="index.html#our-story">Our Story</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+
+      <a class="logo" href="index.html" aria-label="The Knot Guilty home">
+        <img class="logo__image" src="logo.jpg" alt="The Knot Guilty logo" onerror="this.style.display='none';">
+        <span>The Knot Guilty</span>
+      </a>
+
+      <div class="header-actions">
+        <button class="header-cart" id="cart-toggle" type="button" aria-label="Open cart" aria-controls="cart-drawer" aria-expanded="false">
+          <span class="header-cart__icon">
+            <i class="fa-solid fa-basket-shopping" aria-hidden="true"></i>
+            <span class="header-cart__badge" data-cart-count>0</span>
+          </span>
+          <span class="header-cart__label">Cart</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <aside class="mobile-menu" id="mobile-menu" aria-hidden="true" aria-label="Menu">
+    <div class="mobile-menu__panel">
+      <div class="mobile-menu__head">
+        <div>
+          <p class="eyebrow">Menu</p>
+          <h2>Browse the bakery</h2>
+        </div>
+        <button class="icon-button" type="button" data-close-menu aria-label="Close menu">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <nav class="mobile-menu__nav">
+        <a href="index.html" data-mobile-link>Home</a>
+        <a href="products.html" data-mobile-link>Shop</a>
+        <a href="index.html#our-story" data-mobile-link>Our Story</a>
+        <a href="gallery.html" data-mobile-link>Gallery</a>
+        <a href="contact.html" data-mobile-link>Contact</a>
+      </nav>
+
+      <div class="mobile-menu__note">
+        <p class="eyebrow">Pickup</p>
+        <p>Thursday 5:00–6:30 PM<br>Friday 5:00–6:30 PM<br>Saturday 8:30–10:00 AM</p>
+      </div>
+    </div>
+  </aside>
+
+  <div class="backdrop" id="backdrop" hidden></div>
+
+  <aside class="cart-drawer" id="cart-drawer" aria-hidden="true" aria-label="Shopping cart">
+    <div class="cart-drawer__panel">
+      <div class="cart-drawer__head">
+        <div>
+          <p class="eyebrow">Your order</p>
+          <h2>Cart</h2>
+        </div>
+        <button class="icon-button" type="button" data-close-cart aria-label="Close cart">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="cart-drawer__body" data-cart-body></div>
+
+      <div class="cart-drawer__footer">
+        <div class="cart-summary">
+          <span>Subtotal</span>
+          <strong data-cart-total>$0.00</strong>
+        </div>
+        <div class="cart-drawer__actions">
+          <button class="btn btn-light btn-light--dark" type="button" data-clear-cart>Clear cart</button>
+          <button class="btn btn-dark" type="button" data-checkout>Checkout</button>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <main>
+    <section class="page-intro">
+      <div class="container page-intro__inner">
+        <div>
+          <p class="eyebrow"><i class="fa-regular fa-images"></i> Gallery</p>
+          <h1>Golden crusts, soft layers, and quiet weekly bakes.</h1>
+        </div>
+        <p>A simple look at the bakery rhythm — trays, textures, and the small details that make every order feel fresh.</p>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="gallery-grid">
+        <article class="gallery-card gallery-card--wide">
+          <div class="gallery-card__media">
+            <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=1600&q=80" alt="Fresh pastries on a tray">
+          </div>
+          <div class="gallery-card__copy">
+            <h3>Morning trays</h3>
+            <p>Freshly arranged bakes with clean lines and a warm finish.</p>
+          </div>
+        </article>
+
+        <article class="gallery-card">
+          <div class="gallery-card__media">
+            <img src="https://images.unsplash.com/photo-1549931319-a545dcf3bc7c?auto=format&fit=crop&w=1200&q=80" alt="Rustic sourdough loaf">
+          </div>
+          <div class="gallery-card__copy">
+            <h3>Deep crust</h3>
+            <p>Simple loaves with a balanced crumb and a bakery-gold finish.</p>
+          </div>
+        </article>
+
+        <article class="gallery-card">
+          <div class="gallery-card__media">
+            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1200&q=80" alt="Soft pastries and bread">
+          </div>
+          <div class="gallery-card__copy">
+            <h3>Butter layers</h3>
+            <p>Flaky pastries with a soft center and a crisp edge.</p>
+          </div>
+        </article>
+
+        <article class="gallery-card gallery-card--tall">
+          <div class="gallery-card__media">
+            <img src="https://images.unsplash.com/photo-1549931319-7bfbf5f9f0f9?auto=format&fit=crop&w=1200&q=80" alt="Cheesy sourdough loaf">
+          </div>
+          <div class="gallery-card__copy">
+            <h3>Savory loaf</h3>
+            <p>Rich, comforting, and made for sharing.</p>
+          </div>
+        </article>
+
+        <article class="gallery-card">
+          <div class="gallery-card__media">
+            <img src="https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?auto=format&fit=crop&w=1200&q=80" alt="Bakery display">
+          </div>
+          <div class="gallery-card__copy">
+            <h3>Weekend table</h3>
+            <p>A tidy selection ready for pickup and market day.</p>
+          </div>
+        </article>
+
+        <article class="gallery-card">
+          <div class="gallery-card__media">
+            <img src="https://images.unsplash.com/photo-1509440159596-5b6bfe3f0f0c?auto=format&fit=crop&w=1200&q=80" alt="Close-up of pastry layers">
+          </div>
+          <div class="gallery-card__copy">
+            <h3>Soft finish</h3>
+            <p>Close-up detail that shows the calm, handmade style.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="gallery-strip">
+        <span class="pill"><i class="fa-solid fa-wheat-awn"></i> Small batch</span>
+        <span class="pill"><i class="fa-regular fa-clock"></i> Weekly pre-order</span>
+        <span class="pill"><i class="fa-solid fa-basket-shopping"></i> Pickup ready</span>
+        <span class="pill"><i class="fa-solid fa-location-dot"></i> Farmers' market Saturdays</span>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="footer home-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand">The Knot Guilty</div>
+          <p>Artisan French baking made in small batches with premium butter, organic ingredients, and weekly pre-orders.</p>
+          <p><i class="fa-solid fa-location-dot"></i> 63 Laurelwood Crescent, Etobicoke, ON M9P 1L6, Canada</p>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="tel:4169979070">(416) 997-9070</a></li>
+            <li><a href="mailto:theknotguiltyfrenchbakery@gmail.com">theknotguiltyfrenchbakery@gmail.com</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Pages</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Shop</a></li>
+            <li><a href="index.html#our-story">Our story</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Pickup</h4>
+          <p>Orders open Wednesday to Sunday.<br>Pickups: Thu 5:00–6:30 PM · Fri 5:00–6:30 PM · Sat 8:30–10:00 AM.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© <span data-year></span> The Knot Guilty French Bakery</div>
+        <div><i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-threads"></i></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
