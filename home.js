@@ -4,7 +4,7 @@ const EDITORIAL_EDITS = [
     eyebrow: 'Bread board',
     title: 'The Bread Edit',
     copy: 'Long-fermented loaves with deep crusts, open crumb, and a clean, satisfying finish.',
-    image: 'https://images.unsplash.com/photo-1549931319-a545dcf3bc7c?auto=format&fit=crop&w=1400&q=80',
+    image: 'images/b1.jpg',
     pills: ['Country Sourdough', 'Whole Grain', 'Daily Bake'],
     link: '#fresh-from-oven',
     product: 'country-sourdough'
@@ -14,7 +14,7 @@ const EDITORIAL_EDITS = [
     eyebrow: 'Butter layers',
     title: 'Viennoiserie Edit',
     copy: 'Flaky pastry layers with a polished finish and a soft, buttery center.',
-    image: 'https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=1400&q=80',
+    image: 'images/b2.jpg',
     pills: ['Croissants', 'Danishes', 'Morning Treats'],
     link: '#fresh-from-oven',
     product: 'butter-croissant'
@@ -24,7 +24,7 @@ const EDITORIAL_EDITS = [
     eyebrow: 'Seasonal table',
     title: 'The Weekly Special',
     copy: 'A rotating favorite built around the best ingredients of the season.',
-    image: 'https://images.unsplash.com/photo-1509440159596-5b6bfe3f0f0c?auto=format&fit=crop&w=1400&q=80',
+    image: 'images/b3.webp',
     pills: ['Apple Chausson', 'Weekend Drop', 'Limited Batch'],
     link: '#our-story',
     product: 'apple-chausson'
@@ -34,7 +34,7 @@ const EDITORIAL_EDITS = [
     eyebrow: 'For sharing',
     title: 'Gift Box Edit',
     copy: 'An elegant selection for brunch tables, thank-yous, and slow Sunday mornings.',
-    image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1400&q=80',
+    image: 'images/b4.webp',
     pills: ['Brunch Box', 'Weekend Gift', 'Crowd-Pleaser'],
     link: 'products.html',
     product: 'chocolate-croissant'
@@ -48,7 +48,7 @@ const FEATURED_PRODUCTS = [
     category: 'Viennoiserie',
     price: '$5.00',
     short: 'Classic French layers, crisp on the outside and soft within.',
-    image: 'https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=1400&q=80'
+    image: 'images/p18.webp'
   },
   {
     slug: 'italian-sourdough',
@@ -56,7 +56,7 @@ const FEATURED_PRODUCTS = [
     category: 'Bread',
     price: '$15.00',
     short: 'Herb-forward, aromatic, and perfect for a generous table.',
-    image: 'https://images.unsplash.com/photo-1509440159596-3b9a3f8f4b1a?auto=format&fit=crop&w=1400&q=80'
+    image: 'images/p13.jpg'
   },
   {
     slug: 'apple-chausson',
@@ -64,7 +64,7 @@ const FEATURED_PRODUCTS = [
     category: 'Seasonal',
     price: '$7.00',
     short: 'A crisp fruit pastry with a warm, seasonal finish.',
-    image: 'https://images.unsplash.com/photo-1509440159596-5b6bfe3f0f0c?auto=format&fit=crop&w=1400&q=80'
+    image: 'images/p1.jpg'
   }
 ];
 
