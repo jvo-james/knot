@@ -859,7 +859,7 @@ body.products-page{
   padding:0;
   background:
     linear-gradient(90deg, rgba(16,12,9,.68) 0%, rgba(16,12,9,.38) 46%, rgba(16,12,9,.14) 100%),
-    url('images/a1.webp') center/cover no-repeat;
+    url('images/pastries.jpg') center/cover no-repeat;
 }
 
 .products-hero::after{
